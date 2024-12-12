@@ -44,7 +44,7 @@ pip install numpy matplotlib jupyter
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/EquilibriumPoint.git
+git clone https://github.com/lfelipediniz/EquilibriumPoint.git
 ```
 
 ```bash
