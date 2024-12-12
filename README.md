@@ -150,3 +150,10 @@ These examples illustrate how to compute eigenvalues, analyze stability, and vis
 ---
 
 **Happy computing! 📊🔍**
+
+This project was developed as part of the **Linear Algebra and Applications** course. For more information about the course, visit: [Linear Algebra and Applications - USP](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=SME0142&codcur=55041&codhab=0)
+
+A video presentation of this project is available on YouTube: [Watch the Presentation](https://www.youtube.com/watch?v=ClzYnKqldqw)
+
+---
+
