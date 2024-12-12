@@ -1,10 +1,152 @@
-# Algelin
-Objetivo do Projeto:
+# EquilibriumPoint 
+<p align="center"> <img src="https://pimentanerd.com.br/wp-content/uploads/2024/10/Zootopia-2-previsao-de-data-de-lancamento-confirmacao-e-tudo.webp" alt="Equilibrium Point Cover" width="400"> </p>
 
-Este projeto, desenvolvido em Jupyter Notebook, tem como principal objetivo introduzir o conceito de encontro de equilíbrio em sistemas lineares. A abordagem adotada explora o papel fundamental dos autovalores e autovetores para a análise e resolução de problemas relacionados ao equilíbrio dinâmico desses sistemas.
 
-Sistemas lineares, frequentemente descritos por equações diferenciais ou equações matriciais, podem ser representados por matrizes cujos autovalores fornecem informações cruciais sobre a estabilidade e o comportamento de suas soluções ao longo do tempo. Ao utilizar os autovalores, é possível identificar os pontos de equilíbrio de um sistema, além de compreender como ele responde a diferentes condições iniciais e perturbações externas.
+## Table of Contents
 
-Neste trabalho, abordamos a relação entre os autovalores das matrizes associadas a sistemas lineares e o conceito de estabilidade de equilíbrio, fornecendo uma visão intuitiva e computacional para resolver esse tipo de problema em sistemas dinâmicos.
+1. [Introduction](#introduction)  
+2. [Requirements](#requirements)  
+3. [Installation](#installation)  
+4. [How to Use](#how-to-use)  
+5. [Concepts and Methodology](#concepts-and-methodology)  
+6. [Examples](#examples)  
+7. [Contributors](#contributors)  
 
-Serão desenvolvidos dois exemplos de aplicações desse conceito para a construção do algoritmo.
+## Introduction
+
+**EquilibriumPoint** is a project developed in **Jupyter Notebook** that aims to introduce the concept of finding equilibrium points in **linear systems**. The approach adopted emphasizes the crucial role of **eigenvalues** and **eigenvectors** in analyzing and solving dynamic equilibrium problems in these systems.
+
+Linear systems, often described by differential equations or matrix equations, can be represented by matrices whose eigenvalues provide essential information about the **stability** and behavior of their solutions over time. By analyzing eigenvalues, it is possible to identify equilibrium points and understand how the system responds to different initial conditions and external disturbances.
+
+This project explores the relationship between the eigenvalues of matrices associated with linear systems and the concept of equilibrium stability. It provides an **intuitive** and **computational** approach to solving these types of problems in dynamic systems.
+
+Two example applications of this concept are developed to illustrate the algorithm's implementation and usage.
+
+## Requirements
+
+To run the project, you need the following dependencies:
+
+- **Python 3.x**  
+- **Jupyter Notebook**  
+- **NumPy**  
+- **Matplotlib**  
+
+### Installing Dependencies
+
+You can install the required packages using pip:
+
+```bash
+pip install numpy matplotlib jupyter
+```
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/EquilibriumPoint.git
+```
+
+```bash
+cd EquilibriumPoint
+```
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the **`equilibrio_sistemas_lineares.ipynb`** file in your browser to begin.
+
+## How to Use
+
+1. **Open the Notebook:**  
+   Load the `equilibrio_sistemas_lineares.ipynb` file in Jupyter Notebook.
+
+2. **Run the Cells:**  
+   Execute each cell in sequence to follow the explanation, code, and visualizations.
+
+3. **Experiment with Parameters:**  
+   Modify the example matrices and parameters to explore different equilibrium points and system behaviors.
+
+## Concepts and Methodology
+
+
+
+
+### Linear Systems and Equilibrium Points
+
+A **linear system** can be described by the matrix equation:
+
+$$
+\dot{x} = Ax
+$$
+
+**Where**
+
+$$
+x \text{ — State vector}
+$$
+
+$$
+A \text{ — System matrix}
+$$
+
+$$
+\dot{x} \text{ — Derivative of } x \text{ with respect to time}
+$$
+
+
+The **equilibrium points** occur when:
+
+$$
+\dot{x} = 0
+$$
+
+This implies:
+
+$$
+Ax = 0
+$$
+
+### Eigenvalues and Stability
+
+The **eigenvalues** of the system matrix \( A \) determine the stability of the equilibrium point:
+
+- **Stable Equilibrium:** All eigenvalues have negative real parts.  
+- **Unstable Equilibrium:** At least one eigenvalue has a positive real part.  
+- **Saddle Point:** A mix of positive and negative eigenvalues.
+
+### Methodology
+
+1. **Compute Eigenvalues and Eigenvectors:**  
+   Use NumPy to find the eigenvalues and eigenvectors of the system matrix.
+
+2. **Analyze Stability:**  
+   Check the real parts of the eigenvalues to determine equilibrium stability.
+
+3. **Visualize Dynamics:**  
+   Plot the trajectories of the system to visualize how the system behaves over time.
+
+## Examples
+
+The project includes two examples demonstrating the concept of equilibrium points in linear systems:
+
+1. **Example 1:**  
+   Analysis of a simple 2x2 matrix system.
+
+2. **Example 2:**  
+   Dynamic equilibrium analysis with perturbations and visualizations.
+
+These examples illustrate how to compute eigenvalues, analyze stability, and visualize system behavior.
+
+## Contributors
+
+- **Luiz Felipe Diniz Costa** - 13782032  
+- **João Pedro Alves Notari Godoy** - 14582076  
+- **Cauê Paiva Lira** - 14675416  
+
+---
+
+**Happy computing! 📊🔍**
