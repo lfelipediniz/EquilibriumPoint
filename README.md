@@ -1,5 +1,5 @@
 # EquilibriumPoint 
-<p align="center"> <img src="https://pimentanerd.com.br/wp-content/uploads/2024/10/Zootopia-2-previsao-de-data-de-lancamento-confirmacao-e-tudo.webp" alt="Equilibrium Point Cover" width="400"> </p>
+<p align="center"> <img src="https://assets.papelpop.com/wp-content/uploads/2019/02/Movie-in-the-Park-%E2%80%9CZootopia%E2%80%9D.jpg" alt="Equilibrium Point Cover" width="400"> </p>
 
 
 ## Table of Contents
